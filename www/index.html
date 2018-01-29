@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <title>QRCode Reader APP</title>
+</head>
+<body>
+
+    <div data-role="page" id="home">
+        <div data-role="header">
+            <h3>Tryck på knappen för att scanna</h3>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>
+                <button onclick="scan()">SCAN</button>
+            </p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script>
+        function scan()
+        {
+            cordova.plugins.barcodeScanner.scan(
+              function (result) {                        
+                  cordova.InAppBrowser.open(result.text, '_blank', 'location=yes');
+              },
+              function (error) {
+                  alert("Scanning failed: " + error);
+              },
+              {
+                  preferFrontCamera : false, // iOS and Android
+                  showFlipCameraButton : false, // iOS and Android
+                  showTorchButton : false, // iOS and Android
+                  torchOn: false, // Android, launch with the torch switched on (if available)
+                  saveHistory: true, // Android, save scan history (default false)
+                  prompt : "Scanna QR koden", // Android
+                  resultDisplayDuration: 500, // Android, display scanned text for X ms. 0 suppresses it entirely, default 1500
+                  formats : "QR_CODE,PDF_417", // default: all but PDF_417 and RSS_EXPANDED
+                  orientation : "portrait", // Android only (portrait|landscape), default unset so it rotates with the device
+                  disableAnimations : true, // iOS
+                  disableSuccessBeep: false // iOS and Android
+              }
+           );
+        }
+    </script>
+</body>
+</html>
