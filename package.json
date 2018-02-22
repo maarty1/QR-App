@@ -1,6 +1,6 @@
 {
-    "name": "com.world.helloo",
-    "displayName": "app2",
+    "name": "com.kvarnstrom.martin",
+    "displayName": "app3",
     "version": "1.0.0",
     "description": "A sample Apache Cordova application that responds to the deviceready event.",
     "main": "index.js",
@@ -11,7 +11,7 @@
     "license": "Apache-2.0",
     "dependencies": {
         "cordova-android": "^7.0.0",
-        "cordova-plugin-inappbrowser": "^2.0.1",
+        "cordova-plugin-inappbrowser": "^2.0.2",
         "cordova-plugin-whitelist": "^1.3.3",
         "phonegap-plugin-barcodescanner": "^7.0.2"
     },

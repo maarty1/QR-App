@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\IB15\\app2\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lv\\values-lv.xml",
+            "outputFile": "C:\\Users\\Ryzen\\Desktop\\app3\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lv\\values-lv.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\IB15\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\9f88e41e63e15b8d458286b4e7c3f553\\res\\values-lv\\values-lv.xml",
+                    "source": "C:\\Users\\Ryzen\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\8ddbddcfd297ce6f6b996276c26d2017\\res\\values-lv\\values-lv.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

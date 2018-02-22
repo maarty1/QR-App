@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.world.helloo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>app2</name>
+<widget id="com.kvarnstrom.martin" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>app3</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
@@ -24,6 +24,6 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <plugin name="phonegap-plugin-barcodescanner" spec="^7.0.2" />
-    <plugin name="cordova-plugin-inappbrowser" spec="^2.0.1" />
+    <plugin name="cordova-plugin-inappbrowser" spec="^2.0.2" />
     <engine name="android" spec="^7.0.0" />
 </widget>

@@ -23,7 +23,7 @@ module.exports.metadata =
 {
   "cordova-plugin-whitelist": "1.3.3",
   "phonegap-plugin-barcodescanner": "7.0.2",
-  "cordova-plugin-inappbrowser": "2.0.1"
+  "cordova-plugin-inappbrowser": "2.0.2"
 };
 // BOTTOM OF METADATA
 });

@@ -1,28 +1,28 @@
 {
-  "_from": "cordova-plugin-inappbrowser@2.0.1",
-  "_id": "cordova-plugin-inappbrowser@2.0.1",
+  "_from": "cordova-plugin-inappbrowser@2.0.2",
+  "_id": "cordova-plugin-inappbrowser@2.0.2",
   "_inBundle": false,
-  "_integrity": "sha1-/qk31UgZGv5hrXyY9SPx/GIi5bM=",
+  "_integrity": "sha1-pEj8vpdMprQpiL00VRCdkj1sl2k=",
   "_location": "/cordova-plugin-inappbrowser",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "cordova-plugin-inappbrowser@2.0.1",
+    "raw": "cordova-plugin-inappbrowser@2.0.2",
     "name": "cordova-plugin-inappbrowser",
     "escapedName": "cordova-plugin-inappbrowser",
-    "rawSpec": "2.0.1",
+    "rawSpec": "2.0.2",
     "saveSpec": null,
-    "fetchSpec": "2.0.1"
+    "fetchSpec": "2.0.2"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-plugin-inappbrowser/-/cordova-plugin-inappbrowser-2.0.1.tgz",
-  "_shasum": "fea937d548191afe61ad7c98f523f1fc6222e5b3",
-  "_spec": "cordova-plugin-inappbrowser@2.0.1",
-  "_where": "C:\\Users\\IB15\\app2",
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-inappbrowser/-/cordova-plugin-inappbrowser-2.0.2.tgz",
+  "_shasum": "a448fcbe974ca6b42988bd3455109d923d6c9769",
+  "_spec": "cordova-plugin-inappbrowser@2.0.2",
+  "_where": "C:\\Users\\Ryzen\\Desktop\\app3",
   "author": {
     "name": "Apache Software Foundation"
   },
@@ -86,5 +86,5 @@
     "test": "npm run eslint"
   },
   "types": "./types/index.d.ts",
-  "version": "2.0.1"
+  "version": "2.0.2"
 }

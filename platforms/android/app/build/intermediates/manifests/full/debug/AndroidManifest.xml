@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.world.helloo"
+    package="com.kvarnstrom.martin"
     android:hardwareAccelerated="true"
     android:versionCode="10000"
     android:versionName="1.0.0" >
@@ -32,7 +32,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true" >
         <activity
-            android:name="com.world.helloo.MainActivity"
+            android:name="com.kvarnstrom.martin.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
             android:label="@string/activity_name"
             android:launchMode="singleTop"

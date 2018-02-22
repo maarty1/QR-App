@@ -8,13 +8,13 @@
   },
   "installed_plugins": {
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.world.helloo"
+      "PACKAGE_NAME": "com.kvarnstrom.martin"
     },
     "phonegap-plugin-barcodescanner": {
-      "PACKAGE_NAME": "com.world.helloo"
+      "PACKAGE_NAME": "com.kvarnstrom.martin"
     },
     "cordova-plugin-inappbrowser": {
-      "PACKAGE_NAME": "com.world.helloo"
+      "PACKAGE_NAME": "com.kvarnstrom.martin"
     }
   },
   "dependent_plugins": {}
